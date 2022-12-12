@@ -1,7 +1,4 @@
 @media (max-width: 784px) {
-  * {
-    overflow: hidden;
-  }
   img {
     width: 327px;
     height: 269px;
@@ -10,7 +7,7 @@
   #start_btn,
   #end_btn {
     width: 60px;
-    height: 30px;
+    height: 37px;
     margin-top: 2px;
   }
   #start_btn {
@@ -37,6 +34,9 @@
   .center {
     left: 50.3%;
     top: 40%;
+  }
+  .btn_block {
+    margin-bottom: 30px;
   }
 }
 @media (max-width: 376px) {
