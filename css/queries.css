@@ -1,0 +1,78 @@
+@media (max-width: 784px) {
+  * {
+    overflow: hidden;
+  }
+  img {
+    width: 327px;
+    height: 269px;
+    object-fit: cover;
+  }
+  #start_btn,
+  #end_btn {
+    width: 60px;
+    height: 30px;
+    margin-top: 2px;
+  }
+  #start_btn {
+    margin-left: 60px;
+  }
+  #hour_hand {
+    height: 8px;
+    width: 72px;
+    left: 169px;
+    top: 40.4%;
+  }
+  #minute_hand {
+    left: 150px;
+    top: 40.4%;
+    height: 6px;
+    width: 91px;
+  }
+  #second_hand {
+    left: 148px;
+    top: 40.4%;
+    height: 3px;
+    width: 93px;
+  }
+  .center {
+    left: 50.3%;
+    top: 40%;
+  }
+}
+@media (max-width: 376px) {
+  * {
+    overflow: hidden;
+  }
+  img {
+    width: 411px;
+    height: 402px;
+    object-fit: cover;
+  }
+  #start_btn,
+  #end_btn {
+    width: 70px;
+    height: 50px;
+    margin-top: 0;
+  }
+  #start_btn {
+    margin-left: 68px;
+  }
+  #hour_hand {
+    height: 9px;
+    width: 83px;
+    left: 158px;
+    top: 40.4%;
+  }
+  #minute_hand {
+    left: 143px;
+    top: 40.4%;
+    height: 6px;
+    width: 98px;
+  }
+  #second_hand {
+    left: 138.5px;
+    top: 40.4%;
+    height: 3px;
+    width: 102px;
+  }
+}

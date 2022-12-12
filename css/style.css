@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  background-image: radial-gradient(
+      circle at center center,
+      rgba(33, 33, 33, 0),
+      rgb(33, 33, 33)
+    ),
+    repeating-linear-gradient(
+      135deg,
+      rgb(33, 33, 33) 0px,
+      rgb(33, 33, 33) 1px,
+      transparent 1px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      rgb(56, 56, 56) 0px,
+      rgb(56, 56, 56) 5px,
+      transparent 5px,
+      transparent 6px
+    ),
+    linear-gradient(90deg, rgb(33, 33, 33), rgb(33, 33, 33));
+}
+img {
+  width: 865px;
+  height: 480px;
+}
+
+.clock {
+  margin-top: 10px;
+  width: 480px;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  border-radius: 20%;
+  position: relative;
+}
+.clock img {
+  filter: invert(82%) sepia(70%) saturate(523%) hue-rotate(21deg)
+    brightness(97%) contrast(96%);
+}
+
+.center {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50.5%;
+  top: 49%;
+  background-color: rgb(193, 182, 182);
+  transform: translate(-50%);
+  z-index: 1;
+}
+
+.hand {
+  width: 130px;
+  height: 3px;
+  transform: rotate(90deg);
+  position: absolute;
+  left: 112.2px;
+  top: 49.5%;
+  transform-origin: 100%;
+  transition: all 0.3s ease-out;
+}
+#hour_hand {
+  height: 10px;
+  width: 100px;
+  position: absolute;
+  left: 142px;
+  top: 49.5%;
+  z-index: 1;
+  background-color: rgb(193, 182, 182);
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+#minute_hand {
+  height: 6px;
+  width: 130px;
+  z-index: 1;
+  background-color: rgb(193, 182, 182);
+  border-top-left-radius: 45%;
+  border-bottom-left-radius: 45%;
+}
+#second_hand {
+  height: 3px;
+  width: 130px;
+  background-color: red;
+  z-index: 0;
+  border-top-left-radius: 40%;
+  border-bottom-left-radius: 40%;
+}
+#start_btn,
+#end_btn {
+  margin-top: 10px;
+  width: 80px;
+  height: 40px;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgb(193, 182, 182);
+  border-radius: 5px;
+  border-style: none;
+  transform: translateX(-50%);
+  transition: all 0.3s ease-out;
+}
+#start_btn {
+  margin-left: 78px;
+}
+#start_btn:active,
+#end_btn:active {
+  transform: translate(-50%, 3px);
+}
+
+.no_transition {
+  transition: none;
+}
