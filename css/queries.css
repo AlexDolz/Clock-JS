@@ -1,4 +1,4 @@
-@media (max-width: 784px) {
+@media (max-width: 772px) {
   img {
     width: 327px;
     height: 269px;
@@ -34,9 +34,6 @@
   .center {
     left: 50.3%;
     top: 40%;
-  }
-  .btn_block {
-    margin-bottom: 30px;
   }
 }
 @media (max-width: 376px) {
