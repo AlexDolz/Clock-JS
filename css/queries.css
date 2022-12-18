@@ -36,7 +36,7 @@
     top: 40%;
   }
 }
-@media (max-width: 376px) {
+@media (min-width: 320px) and (max-width: 772px) {
   * {
     overflow: hidden;
   }
