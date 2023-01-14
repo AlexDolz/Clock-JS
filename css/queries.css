@@ -37,7 +37,7 @@
   }
 }
 @media (min-width: 320px) and (max-width: 772px) {
-  * {
+  .container {
     overflow-x: hidden;
   }
   img {
@@ -74,7 +74,7 @@
   }
 }
 @media (any-pointer: coarse) and (orientation: landscape) {
-  body {
+  .container {
     overflow-x: hidden;
   }
   img {
@@ -95,26 +95,29 @@
     height: 9px;
     width: 83px;
     left: 158.2px;
-    top: 39.4%;
+    top: 41.4%;
   }
   #minute_hand {
     left: 143px;
-    top: 39.4%;
+    top: 41.4%;
     height: 6px;
     width: 98px;
   }
   #second_hand {
     left: 138.6px;
-    top: 40.4%;
+    top: 42.4%;
     height: 3px;
     width: 102px;
   }
   .center {
-    top: 39%;
+    top: 41%;
   }
   .btn_block {
     position: fixed;
     top: 10px;
     left: 0;
+  }
+  .clock {
+    margin-top: 35px;
   }
 }
