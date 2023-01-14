@@ -94,23 +94,23 @@
   #hour_hand {
     height: 9px;
     width: 83px;
-    left: 158.1px;
-    top: 41.4%;
+    left: 158.7px;
+    top: 38.4%;
   }
   #minute_hand {
     left: 143px;
-    top: 41.4%;
+    top: 38.4%;
     height: 6px;
     width: 98px;
   }
   #second_hand {
-    left: 138.5px;
-    top: 42.4%;
+    left: 138.3px;
+    top: 38.4%;
     height: 3px;
     width: 102px;
   }
   .center {
-    top: 41%;
+    top: 38%;
   }
   .btn_block {
     position: fixed;
